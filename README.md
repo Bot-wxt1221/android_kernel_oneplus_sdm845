@@ -1,6 +1,6 @@
 ## Hola amiguitos
 
-This is my attempt to fix up and add a little crDroid customization flavor back into the sdm845 kernel tree for OnePlus 6 & 6T (enchilada & fajita).
+This is my attempt to fix up and add a little ArchLinux customization flavor back into the sdm845 kernel tree for OnePlus 6 & 6T (enchilada & fajita).
 
 Rebased on bananafunction's lineage-20-test branch as of July 2023, which is based on the official android_kernel_oneplus_sdm845 lineage-20 branch from LineageOS, plus additional backported updates & fixes, with some extra goodies and optimization curated by mcdachpappe from MCD kernel, and a couple other useful things I've picked up along the way, and clang 16 support. Includes vibration control, digital audio gain controls, OOS panel color modes, battery idle mode support in op_disable_charge switch, zstd support for zram, updated sdfat and exfat drivers, updated CLO wifi drivers, and so on. Fancy!
 
