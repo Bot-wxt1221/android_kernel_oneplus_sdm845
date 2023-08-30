@@ -2,6 +2,8 @@
 
 It is forked from crdroid, and i only test it on crdroid and official system. Complie on ArchLinux with clang-16
 
+Use enchilada_defconfig to complie it.
+
 # Hola amiguitos
 
 You should close kprobe before building.
