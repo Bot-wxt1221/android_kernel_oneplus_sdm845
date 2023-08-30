@@ -1,4 +1,10 @@
+# Free talk
+
+It is forked from crdroid, and i only test it on crdroid and official system. Complie on ArchLinux with clang-16
+
 # Hola amiguitos
+
+You should close kprobe before building.
 
 It maybe can be used for roms which don't use Retrofit Dynamic Partitions.
 
@@ -12,4 +18,3 @@ Not TOO shabby for someone who doesn't actually know any c/c++/java. :D
 
 Currently includes some temp hax to fix compiling under clang 16/17. If you're using clang-14 or older, you might be better off dropping the last two clang-related commits.
 
-Clang-15 is also OK.
