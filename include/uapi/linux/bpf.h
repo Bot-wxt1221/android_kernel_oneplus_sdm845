@@ -87,7 +87,7 @@ enum bpf_map_type {
 	BPF_MAP_TYPE_PERCPU_ARRAY=6,
 	BPF_MAP_TYPE_STACK_TRACE=7,
 	BPF_MAP_TYPE_CGROUP_ARRAY=8,
-	BPF_MAP_TYPE_DEVMAP=6
+	BPF_MAP_TYPE_DEVMAP=2 //older Android use BPF_MAP_TYPE_ARRAY to replace BPF_MAP_TYPE_DEVMAP, so it can work with this
 };
 
 enum bpf_prog_type {

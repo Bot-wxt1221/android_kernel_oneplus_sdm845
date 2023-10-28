@@ -110,7 +110,7 @@ int bpf_map_update_elem(int fd, void *key, void *value,
 
 	return sys_bpf(BPF_MAP_UPDATE_ELEM, &attr, sizeof(attr));
 }
-int bpf_obj_get_info_by_fd(int prog_fd, void *info, __u32 *info_len)
+int bpf_obj_get_info_by_fd(int prog_fd, void *info, __u32 *info_len) // just copy this function from 4.14 and it works.
 {
 	union bpf_attr attr;
 	int err;
