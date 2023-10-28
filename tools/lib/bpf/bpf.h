@@ -35,4 +35,5 @@ int bpf_load_program(enum bpf_prog_type type, struct bpf_insn *insns,
 
 int bpf_map_update_elem(int fd, void *key, void *value,
 			u64 flags);
+int bpf_obj_get_info_by_fd(int prog_fd, void *info, __u32 *info_len);
 #endif
