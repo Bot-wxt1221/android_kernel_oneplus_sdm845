@@ -1,0 +1,3 @@
+[submodule "KernelSU"]
+	url = git@github.com:wxt1221/KernelSU.git
+	path = KernelSU
